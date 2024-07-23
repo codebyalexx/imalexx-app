@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ImAlexx - Freelance Web Developer!",
-  description: "Hi, Im Alex! A French web developer",
+  title: "ImAlexx - Freelance Web Developer",
+  description: "Hi, Im Alex! A French Web Developer.",
 };
 
 export default function RootLayout({
@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="w-full flex items-center justify-center">
+          <div className="flex-1 w-full max-w-6xl">{children}</div>
+        </div>
+      </body>
     </html>
   );
 }
