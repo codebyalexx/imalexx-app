@@ -34,7 +34,7 @@ export const Header = () => {
   );
 };
 
-const ContactMeSection = () => {
+export const ContactMeSection = () => {
   return (
     <div className="flex items-center gap-4">
       <MessagesSquare className="size-10 text-primary" />
