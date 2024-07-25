@@ -29,7 +29,7 @@ const ContactMeSection = () => {
   return (
     <div className="flex items-center gap-4">
       <MessagesSquare className="size-10 text-primary" />
-      <div className="space-y-2 border-l-4 border-primary pl-4">
+      <div className="space-y-2 border-l-2 border-primary pl-4">
         <Link
           href={"tel:+33768000673"}
           className="block text-base font-semibold"
