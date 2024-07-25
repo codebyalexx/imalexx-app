@@ -14,10 +14,8 @@ export const Header = () => {
           from France
         </h1>
         <p className="text-muted-foreground">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-          praesentium incidunt possimus tempora eius. Sit odit facilis
-          voluptatem sunt adipisci asperiores placeat excepturi nam maxime. Eius
-          explicabo modi nihil dolorem.
+          From artificial intelligence to digital craftsmanship, your partner
+          for tailor-made web apps solutions
         </p>
         <ContactMeSection />
       </div>
