@@ -8,7 +8,7 @@ export const Footer = () => (
   <div className="bg-blue-800 py-8">
     <div className="w-full flex items-center justify-center">
       <div className="flex-1 w-full max-w-7xl">
-        <div className="w-full flex items-start justify-between">
+        <div className="w-full flex max-lg:flex-col gap-4 px-4 items-start justify-between">
           <div className="space-y-1">
             <span
               className={cn(satisfy.className, "font-bold text-white text-2xl")}

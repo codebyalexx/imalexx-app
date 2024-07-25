@@ -6,7 +6,7 @@ const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
 export const Navigation = () => {
   return (
-    <nav className="flex items-center gap-4 justify-between py-20">
+    <nav className="flex items-center gap-4 justify-between py-20 max-sm:py-10 max-xl:px-4">
       <div className="flex items-center gap-3">
         {/*<Image src={"/logo.png"} alt="Logo" height={50} width={50} />*/}
         <span

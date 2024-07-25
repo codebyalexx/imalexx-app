@@ -4,8 +4,8 @@ export const Skills = () => {
       <h2 className="font-bold text-xl text-center mb-8">
         Versatile Expertise
       </h2>
-      <div className="flex flex-row gap-4 justify-center">
-        <section className="w-1/2 flex flex-col gap-6 items-end">
+      <div className="flex flex-row gap-4 justify-center max-lg:px-4 max-lg:flex-wrap">
+        <section className="w-1/2 flex flex-col gap-6 items-end max-lg:w-full">
           <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
             <h3 className="font-semibold text-blue-900 dark:text-blue-500">
               Automation
@@ -39,7 +39,7 @@ export const Skills = () => {
             </h3>
           </div>
         </section>
-        <section className="w-1/2 flex flex-col gap-6 items-start">
+        <section className="w-1/2 flex flex-col gap-6 items-start max-lg:w-full">
           <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
             <h3 className="font-semibold text-blue-900 dark:text-blue-500">
               Custom Software
@@ -78,7 +78,7 @@ export const Skills = () => {
         </section>
       </div>
       <div className="flex items-center justify-center mt-8">
-        <div className="bg-blue-900 p-4 space-y-1 w-1/2">
+        <div className="bg-blue-900 p-4 space-y-1 w-1/2 max-lg:w-full mx-2">
           <h3 className="font-semibold text-white">
             Do you have a special use case?
           </h3>

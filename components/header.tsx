@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className="flex justify-between py-20 gap-24">
-      <div className="space-y-6 w-1/2">
+    <header className="flex justify-between py-20 gap-24 max-sm:flex-wrap max-xl:px-4">
+      <div className="space-y-6 w-1/2 max-sm:w-full">
         <h1 className="text-5xl font-extrabold">
           Hi, I am <span className="text-primary">Alexandre!</span>
           <br />
@@ -19,7 +19,7 @@ export const Header = () => {
         </p>
         <ContactMeSection />
       </div>
-      <div className="w-1/2 flex items-center justify-center">
+      <div className="w-1/2 flex items-center justify-center max-sm:hidden">
         <Image
           src="/Programming-rafiki.svg"
           alt="Programming person"

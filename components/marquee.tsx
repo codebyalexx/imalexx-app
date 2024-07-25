@@ -23,8 +23,8 @@ export const MarqueeItems = [
 
 export const MarqueeLayout = () => {
   return (
-    <div className="flex flex-row items-center gap-2 mt-10 mb-24">
-      <div>
+    <div className="flex flex-row items-center gap-2 mt-10 mb-24 max-lg:flex-wrap">
+      <div className="max-lg:w-full max-lg:px-4">
         <p className="text-primary/70 font-bold text-sm">In good hands</p>
       </div>
       <div className="relative flex w-full flex-col items-center overflow-hidden">
