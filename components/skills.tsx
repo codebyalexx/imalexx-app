@@ -6,15 +6,21 @@ export const Skills = () => {
       </h2>
       <div className="flex flex-row gap-4 justify-center">
         <section className="w-1/2 flex flex-col gap-6 items-end">
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">Automation</h3>
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              Automation
+            </h3>
           </div>
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">SEO Optimization</h3>
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              SEO Optimization
+            </h3>
           </div>
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">Web Development</h3>
-            <p className="text-sm text-blue-900">
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              Web Development
+            </h3>
+            <p className="text-sm text-blue-900 dark:text-blue-500">
               As a passionate and skilled web developer, I specialize in
               creating dynamic, user-friendly websites and web applications.
               With expertise in front-end and back-end technologies, including
@@ -22,17 +28,23 @@ export const Skills = () => {
               responsive & high-performance solutions.
             </p>
           </div>
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">Testing & Debugging</h3>
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              Testing & Debugging
+            </h3>
           </div>
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">Agile Methodologies</h3>
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              Agile Methodologies
+            </h3>
           </div>
         </section>
         <section className="w-1/2 flex flex-col gap-6 items-start">
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">Custom Software</h3>
-            <p className="text-sm text-blue-900">
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              Custom Software
+            </h3>
+            <p className="text-sm text-blue-900 dark:text-blue-500">
               Customized software solutions are the backbone of any company
               looking to stand out from the competition. I offer you
               personalized applications that are precisely tailored to your
@@ -41,12 +53,16 @@ export const Skills = () => {
               expectations and revolutionize your workday.
             </p>
           </div>
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">Cloud Architecture</h3>
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              Cloud Architecture
+            </h3>
           </div>
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">AI & Chatbots</h3>
-            <p className="text-sm text-blue-900">
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              AI & Chatbots
+            </h3>
+            <p className="text-sm text-blue-900 dark:text-blue-500">
               My work reflects a commitment to staying at the forefront of
               innovation, integrating the latest advancements to create smart,
               responsive, and intuitive solutions. I use the cutting-edge field
@@ -54,8 +70,10 @@ export const Skills = () => {
               enhance user interactions and streamline processes.
             </p>
           </div>
-          <div className="bg-blue-100/40 p-4 space-y-1 w-fit">
-            <h3 className="font-semibold text-blue-900">Accessibility</h3>
+          <div className="bg-blue-100/40 dark:bg-blue-950/40 p-4 space-y-1 w-fit">
+            <h3 className="font-semibold text-blue-900 dark:text-blue-500">
+              Accessibility
+            </h3>
           </div>
         </section>
       </div>
