@@ -50,10 +50,13 @@ export const ContactMeSection = () => {
           hello@imalexx.com
         </Link>
         <div className="flex items-center gap-4 pt-2">
-          <Link href={""} target="_blank">
+          <Link
+            href={"https://www.linkedin.com/in/alexandre-l-904832228/"}
+            target="_blank"
+          >
             <LinkedinIcon className="w-5 h-5" />
           </Link>
-          <Link href={""} target="_blank">
+          <Link href={"https://github.com/codebyalexx"} target="_blank">
             <GithubIcon className="w-5 h-5" />
           </Link>
         </div>
