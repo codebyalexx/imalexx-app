@@ -1,4 +1,5 @@
 import { GithubIcon, LinkedinIcon, MessagesSquare } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => {
@@ -20,7 +21,15 @@ export const Header = () => {
         </p>
         <ContactMeSection />
       </div>
-      <div className=" w-1/2 bg-red-50">IMG</div>
+      <div className="w-1/2 flex items-center justify-center">
+        <Image
+          src="/Programming-rafiki.svg"
+          alt="Programming person"
+          width={1000}
+          height={600}
+          className="w-full"
+        />
+      </div>
     </header>
   );
 };
