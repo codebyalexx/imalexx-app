@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Satisfy } from "next/font/google";
+import { ModeToggle } from "./mode-toggle";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
@@ -14,7 +15,9 @@ export const Navigation = () => {
           ImAlexx
         </span>
       </div>
-      <div>Language Selector / Theme Selector</div>
+      <div>
+        <ModeToggle />
+      </div>
     </nav>
   );
 };
